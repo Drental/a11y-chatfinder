@@ -4,6 +4,6 @@ Add a shortcut on shift+c to go to the chatbox to help vision impaired players n
 
 ## Changelog
 
-### v1.0
+### v1.1
 
-First Version of the Module
+First release Version of the Module

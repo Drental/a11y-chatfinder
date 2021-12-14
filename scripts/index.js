@@ -5,10 +5,11 @@ Hooks.on("init", () => {
     hint: "Puts a cursor in the chat window and activates it.",
     editable: [
       {
-        key: "C"
+        key: "C",
+        modifiers: "SHIFT"
       }
     ],
-    onDown: () => { 
+    onDown: async () => { 
       let element = $("#chat-message");
       element.focus();
       await new Promise(resolve => {setTimeout(resolve, 50);});
@@ -17,7 +18,6 @@ Hooks.on("init", () => {
     onUp: () => {},
     restricted: false,
     reservedModifiers: [],
-    requiredModifiers: ["SHIFT"],
-    precedence: CONST.KEYBINDING_PRECEDENCE.NORMAL
+    precedence: CONST.KEYBINDING_PRECEDENCE.PRIORITY
   });
 })
