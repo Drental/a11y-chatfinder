@@ -8,7 +8,12 @@ Hooks.on("init", () => {
         key: "C"
       }
     ],
-    onDown: () => { canvas.tokens._hover.actor.toggleCondition('flat-footed') },
+    onDown: () => { 
+      let element = $("#chat-message");
+      element.focus();
+      await new Promise(resolve => {setTimeout(resolve, 50);});
+      element.val("");
+    },
     onUp: () => {},
     restricted: false,
     reservedModifiers: [],
