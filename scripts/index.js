@@ -6,7 +6,7 @@ Hooks.on("init", () => {
     hint: "Puts a cursor in the chat window and activates it.",
     editable: [
       {
-        key: "keyC",
+        key: "KeyC",
         modifiers: [SHIFT]
       }
     ],

@@ -4,6 +4,10 @@ Add a shortcut on shift+c to go to the chatbox to help vision impaired players n
 
 ## Changelog
 
+### v1.3
+
+Adressed breaking change in Keybinding API - fix a typo that got in there
+
 ### v1.2
 
 Adressed breaking change in Keybinding API
