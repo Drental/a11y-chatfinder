@@ -1,12 +1,13 @@
 Hooks.on("init", () => {
   // Binding with a default key and a simple callback
+  const {SHIFT} = KeyboardManager.MODIFIER_KEYS;
   game.keybindings.register("a11y-chatfinder", "chatfinder", {
     name: "Chatfinder",
     hint: "Puts a cursor in the chat window and activates it.",
     editable: [
       {
-        key: "C",
-        modifiers: "SHIFT"
+        key: "keyC",
+        modifiers: [SHIFT]
       }
     ],
     onDown: async () => { 
