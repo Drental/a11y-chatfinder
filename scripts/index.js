@@ -11,6 +11,9 @@ Hooks.on("init", () => {
       }
     ],
     onDown: async () => { 
+      ui.sidebar.expand();
+      ui.sidebar.activateTab("chat");
+      await new Promise(resolve => {setTimeout(resolve, 50);});
       let element = $("#chat-message");
       element.focus();
       await new Promise(resolve => {setTimeout(resolve, 50);});

@@ -2,7 +2,7 @@
   "name": "a11y-chatfinder",
   "title": "Accessibility: Chatfinder",
   "description": "Adds a shortcut on shift + C to go to the chatbox to help vision impaired players navigating the accessible parts of foundry.",
-  "version": "1.3",
+  "version": "1.4",
   "minimumCoreVersion": "9.236",
   "compatibleCoreVersion": "9",
   "authors": {
@@ -14,6 +14,6 @@
   ],
   "system": [],
   "dependencies": [],
-  "download":"https://github.com/Drental/a11y-chatfinder/releases/download/1.3/module.zip",
+  "download":"https://github.com/Drental/a11y-chatfinder/releases/download/1.4/module.zip",
   "manifest":"https://github.com/Drental/a11y-chatfinder/releases/latest/download/module.json"
 }
